@@ -1,0 +1,1316 @@
+{ "compressionlevel":-1,
+ "height":13,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6,
+            6, 6, 6, 6, 6, 6, 6],
+         "height":13,
+         "id":1,
+         "name":"ground0",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":22,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    6, 6, 6, 6, 6, 6, 6,
+                    6, 6, 2, 2, 2, 2, 6,
+                    2, 2, 2, 2, 2, 2, 2,
+                    6, 6, 2, 2, 2, 2, 6,
+                    6, 6, 2, 2, 2, 2, 2,
+                    6, 6, 2, 2, 2, 2, 6,
+                    6, 6, 2, 2, 2, 2, 6,
+                    0, 0, 0, 0, 2, 0, 0,
+                    0, 0, 0, 0, 2, 0, 0,
+                    6, 2, 2, 2, 2, 2, 2,
+                    6, 2, 6, 6, 5, 6, 6,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":2,
+                 "name":"layer0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    47, 47, 47, 47, 47, 47, 47,
+                    0, 0, 0, 0, 47, 0, 0,
+                    0, 0, 0, 0, 47, 0, 0,
+                    47, 47, 47, 47, 47, 47, 47,
+                    83, 80, 83, 83, 83, 83, 83,
+                    0, 83, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":13,
+                 "name":"declayer0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":8,
+                 "name":"item0",
+                 "objects":[
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":6,
+                         "name":"exit0",
+                         "rotation":0,
+                         "type":"exit",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":480
+                        }, 
+                        {
+                         "gid":22,
+                         "height":120,
+                         "id":40,
+                         "name":"light0",
+                         "rotation":0,
+                         "type":"light",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":960
+                        }, 
+                        {
+                         "gid":23,
+                         "height":840,
+                         "id":43,
+                         "name":"sight0",
+                         "rotation":0,
+                         "type":"sight",
+                         "visible":false,
+                         "width":840,
+                         "x":0,
+                         "y":960
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":44,
+                         "name":"start0",
+                         "rotation":0,
+                         "type":"start",
+                         "visible":true,
+                         "width":120,
+                         "x":120,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":51,
+                         "name":"upstair2",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":720,
+                         "y":480
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":52,
+                         "name":"upstair1",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":720,
+                         "y":720
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":53,
+                         "name":"upstair0",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":720,
+                         "y":1320
+                        },
+                    
+                        {
+                         "gid":71,
+                         "height":360,
+                         "id":112,
+                         "name":"door0",
+                         "rotation":0,
+                         "type":"door",
+                         "visible":true,
+                         "width":120,
+                         "x":120,
+                         "y":600
+                        }, 
+                        {
+                         "gid":93,
+                         "height":840,
+                         "id":128,
+                         "name":"window0",
+                         "rotation":0,
+                         "type":"window",
+                         "visible":true,
+                         "width":840,
+                         "x":120,
+                         "y":1440
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":16,
+                 "name":"decitem0",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    0, 53, 50, 50, 50, 50, 55,
+                    0, 0, 0, 0, 0, 0, 60,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 48,
+                    0, 56, 0, 0, 0, 0, 0,
+                    0, 56, 0, 0, 0, 0, 52,
+                    0, 60, 0, 0, 0, 0, 60,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    75, 0, 49, 73, 0, 0, 55,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":5,
+                 "name":"decorate0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l0",
+         "opacity":1,
+         "properties":
+            {
+             "room":0,
+             "state":0
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":33,
+         "layers":[
+                {
+                 "data":[6, 0, 2, 0, 2, 2, 6,
+                    2, 2, 2, 0, 0, 0, 5,
+                    6, 0, 0, 0, 2, 2, 6,
+                    2, 2, 0, 0, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6,
+                    0, 0, 0, 0, 2, 2, 6,
+                    0, 0, 0, 0, 0, 0, 6,
+                    2, 2, 2, 0, 0, 2, 6,
+                    6, 0, 2, 2, 2, 2, 6,
+                    6, 0, 0, 0, 0, 0, 6,
+                    6, 6, 6, 6, 6, 6, 6,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":34,
+                 "name":"layer1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[47, 0, 47, 0, 47, 47, 81,
+                    47, 47, 47, 0, 0, 0, 0,
+                    47, 0, 0, 0, 47, 47, 81,
+                    47, 47, 0, 0, 47, 47, 81,
+                    47, 0, 0, 0, 47, 47, 81,
+                    47, 0, 0, 0, 47, 47, 81,
+                    0, 0, 0, 0, 47, 47, 81,
+                    0, 0, 0, 0, 0, 0, 81,
+                    47, 47, 47, 0, 0, 47, 81,
+                    86, 0, 47, 47, 47, 47, 81,
+                    79, 0, 0, 0, 0, 0, 81,
+                    82, 83, 83, 83, 83, 83, 84,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":35,
+                 "name":"declayer1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":36,
+                 "name":"item1",
+                 "objects":[
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":49,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":600,
+                         "y":480
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":50,
+                         "name":"upstair4",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":480
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":76,
+                         "name":"upstair3",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":240
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":78,
+                         "name":"upstair5",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1080
+                        }, 
+                        {
+                         "gid":24,
+                         "height":120,
+                         "id":93,
+                         "name":"switch0",
+                         "rotation":0,
+                         "type":"switch",
+                         "visible":true,
+                         "width":120,
+                         "x":600,
+                         "y":120
+                        }, 
+                        {
+                         "gid":94,
+                         "height":1080,
+                         "id":130,
+                         "name":"window1",
+                         "rotation":0,
+                         "type":"window",
+                         "visible":true,
+                         "width":720,
+                         "x":120,
+                         "y":720
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":37,
+                 "name":"decitem1",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[60, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    48, 0, 0, 0, 0, 0, 70,
+                    0, 0, 0, 0, 0, 0, 56,
+                    52, 0, 0, 0, 0, 0, 56,
+                    60, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    55, 0, 0, 0, 0, 0, 56,
+                    56, 0, 0, 0, 0, 0, 56,
+                    61, 50, 50, 50, 50, 50, 63,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":38,
+                 "name":"decorate1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l1",
+         "opacity":1,
+         "properties":
+            {
+             "room":1,
+             "state":0
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":58,
+         "layers":[
+                {
+                 "data":[6, 0, 2, 0, 2, 2, 6,
+                    2, 2, 2, 0, 0, 0, 5,
+                    6, 0, 0, 0, 2, 2, 6,
+                    2, 2, 2, 2, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6,
+                    0, 0, 0, 0, 2, 2, 6,
+                    0, 0, 0, 0, 0, 0, 6,
+                    2, 2, 2, 0, 0, 2, 6,
+                    6, 0, 2, 2, 2, 2, 6,
+                    6, 0, 0, 0, 0, 0, 6,
+                    6, 6, 6, 6, 6, 6, 6,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":59,
+                 "name":"layer2",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[47, 0, 47, 0, 47, 47, 84,
+                    47, 47, 47, 0, 0, 0, 0,
+                    47, 0, 0, 0, 47, 47, 78,
+                    47, 47, 47, 47, 47, 47, 81,
+                    47, 0, 0, 0, 47, 47, 81,
+                    47, 0, 0, 0, 47, 47, 81,
+                    0, 0, 0, 0, 47, 47, 81,
+                    0, 0, 0, 0, 0, 0, 81,
+                    47, 47, 47, 0, 0, 47, 81,
+                    86, 0, 47, 47, 47, 47, 81,
+                    79, 0, 0, 0, 0, 0, 81,
+                    82, 83, 83, 83, 83, 83, 84,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":60,
+                 "name":"declayer2",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":61,
+                 "name":"item2",
+                 "objects":[
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":117,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":600,
+                         "y":480
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":118,
+                         "name":"upstair4",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":480
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":119,
+                         "name":"upstair3",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":240
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":120,
+                         "name":"upstair5",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1080
+                        }, 
+                        {
+                         "gid":24,
+                         "height":120,
+                         "id":121,
+                         "name":"switch0",
+                         "rotation":0,
+                         "type":"switch",
+                         "visible":true,
+                         "width":120,
+                         "x":600,
+                         "y":120
+                        }, 
+                        {
+                         "gid":94,
+                         "height":1080,
+                         "id":131,
+                         "name":"window1",
+                         "rotation":0,
+                         "type":"window",
+                         "visible":true,
+                         "width":720,
+                         "x":120,
+                         "y":720
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":62,
+                 "name":"decitem2",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[60, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    48, 0, 0, 0, 0, 0, 70,
+                    0, 0, 0, 0, 0, 0, 56,
+                    52, 0, 0, 0, 0, 0, 56,
+                    60, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    55, 0, 0, 0, 0, 0, 56,
+                    56, 0, 0, 0, 0, 0, 56,
+                    61, 50, 50, 50, 50, 50, 63,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":63,
+                 "name":"decorate2",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l2",
+         "opacity":1,
+         "properties":
+            {
+             "room":1,
+             "state":1
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":46,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 6,
+                    0, 0, 0, 0, 0, 0, 6,
+                    0, 0, 2, 2, 2, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    2, 2, 2, 0, 0, 0, 5,
+                    6, 0, 0, 0, 2, 2, 6,
+                    2, 2, 0, 0, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6],
+                 "height":13,
+                 "id":47,
+                 "name":"layer3",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 81,
+                    0, 0, 0, 0, 0, 0, 81,
+                    0, 0, 47, 47, 47, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    47, 0, 47, 0, 47, 47, 81,
+                    47, 0, 47, 0, 47, 47, 81,
+                    47, 0, 47, 0, 47, 47, 84,
+                    47, 47, 47, 0, 0, 0, 0,
+                    47, 0, 0, 0, 47, 47, 78,
+                    47, 47, 0, 0, 47, 47, 81,
+                    47, 0, 0, 0, 80, 80, 81],
+                 "height":13,
+                 "id":48,
+                 "name":"declayer3",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":49,
+                 "name":"item3",
+                 "objects":[
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":95,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":600,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":24,
+                         "height":120,
+                         "id":99,
+                         "name":"switch0",
+                         "rotation":0,
+                         "type":"switch",
+                         "visible":true,
+                         "width":120,
+                         "x":600,
+                         "y":1080
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":103,
+                         "name":"upstair4",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":104,
+                         "name":"upstair3",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1200
+                        }, 
+                        {
+                         "gid":94,
+                         "height":1080,
+                         "id":132,
+                         "name":"window1",
+                         "rotation":0,
+                         "type":"window",
+                         "visible":true,
+                         "width":720,
+                         "x":120,
+                         "y":1680
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":50,
+                 "name":"decitem3",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    55, 0, 0, 0, 0, 0, 56,
+                    56, 0, 0, 0, 0, 0, 56,
+                    60, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 0,
+                    48, 0, 0, 0, 0, 0, 70,
+                    0, 0, 0, 0, 0, 0, 56,
+                    52, 0, 0, 0, 0, 0, 56],
+                 "height":13,
+                 "id":51,
+                 "name":"decorate3",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l3",
+         "opacity":1,
+         "properties":
+            {
+             "room":2,
+             "state":0
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":64,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 6,
+                    0, 0, 0, 0, 0, 0, 6,
+                    0, 0, 2, 2, 2, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    0, 0, 2, 0, 0, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    6, 0, 2, 0, 2, 2, 6,
+                    2, 2, 2, 0, 0, 0, 5,
+                    6, 0, 0, 0, 2, 2, 6,
+                    2, 2, 2, 2, 2, 2, 6,
+                    6, 0, 0, 0, 2, 2, 6],
+                 "height":13,
+                 "id":65,
+                 "name":"layer4",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 81,
+                    0, 0, 0, 0, 0, 0, 81,
+                    0, 0, 47, 47, 47, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    0, 0, 47, 0, 0, 47, 81,
+                    47, 0, 47, 0, 47, 47, 81,
+                    47, 0, 47, 0, 47, 47, 81,
+                    47, 0, 47, 0, 47, 47, 84,
+                    47, 47, 47, 0, 0, 0, 0,
+                    47, 0, 0, 0, 47, 47, 78,
+                    47, 47, 47, 47, 47, 47, 81,
+                    47, 0, 0, 0, 80, 80, 81],
+                 "height":13,
+                 "id":66,
+                 "name":"declayer4",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":67,
+                 "name":"item4",
+                 "objects":[
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":122,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":600,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":24,
+                         "height":120,
+                         "id":123,
+                         "name":"switch0",
+                         "rotation":0,
+                         "type":"switch",
+                         "visible":true,
+                         "width":120,
+                         "x":600,
+                         "y":1080
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":124,
+                         "name":"upstair4",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":125,
+                         "name":"upstair3",
+                         "rotation":0,
+                         "type":"upstair",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":1200
+                        }, 
+                        {
+                         "gid":94,
+                         "height":1080,
+                         "id":133,
+                         "name":"window1",
+                         "rotation":0,
+                         "type":"window",
+                         "visible":true,
+                         "width":720,
+                         "x":120,
+                         "y":1680
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":68,
+                 "name":"decitem4",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 56,
+                    55, 0, 0, 0, 0, 0, 56,
+                    56, 0, 0, 0, 0, 0, 56,
+                    60, 0, 0, 0, 0, 0, 56,
+                    0, 0, 0, 0, 0, 0, 0,
+                    48, 0, 0, 0, 0, 0, 70,
+                    0, 0, 0, 0, 0, 0, 56,
+                    52, 0, 0, 0, 0, 0, 56],
+                 "height":13,
+                 "id":69,
+                 "name":"decorate4",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l4",
+         "opacity":1,
+         "properties":
+            {
+             "room":2,
+             "state":1
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":39,
+         "name":"init",
+         "objects":[
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":69,
+                 "name":"exit0",
+                 "rotation":0,
+                 "type":"exit",
+                 "visible":true,
+                 "width":120,
+                 "x":120,
+                 "y":240
+                }, 
+                {
+                 "gid":22,
+                 "height":120,
+                 "id":70,
+                 "name":"light0",
+                 "properties":
+                    {
+                     "sight":"sight0"
+                    },
+                 "propertytypes":
+                    {
+                     "sight":"string"
+                    },
+                 "rotation":0,
+                 "type":"light",
+                 "visible":true,
+                 "width":120,
+                 "x":360,
+                 "y":960
+                }, 
+                {
+                 "gid":23,
+                 "height":840,
+                 "id":71,
+                 "name":"sight0",
+                 "properties":
+                    {
+                     "image":"sight01_png"
+                    },
+                 "propertytypes":
+                    {
+                     "image":"string"
+                    },
+                 "rotation":0,
+                 "type":"sight",
+                 "visible":true,
+                 "width":840,
+                 "x":0,
+                 "y":960
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":72,
+                 "name":"start0",
+                 "rotation":0,
+                 "type":"start",
+                 "visible":true,
+                 "width":120,
+                 "x":120,
+                 "y":1440
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":73,
+                 "name":"upstair2",
+                 "properties":
+                    {
+                     "goto":2,
+                     "posx":1,
+                     "posy":9
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":720,
+                 "y":480
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":74,
+                 "name":"upstair1",
+                 "properties":
+                    {
+                     "goto":1,
+                     "posx":1,
+                     "posy":3
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":720,
+                 "y":720
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":75,
+                 "name":"upstair0",
+                 "properties":
+                    {
+                     "goto":1,
+                     "posx":1,
+                     "posy":8
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":720,
+                 "y":1320
+                },
+            
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":85,
+                 "name":"upstair4",
+                 "properties":
+                    {
+                     "goto":0,
+                     "posx":5,
+                     "posy":5
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":0,
+                 "y":480
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":86,
+                 "name":"upstair3",
+                 "properties":
+                    {
+                     "goto":0,
+                     "posx":5,
+                     "posy":3
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":0,
+                 "y":240
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":87,
+                 "name":"upstair5",
+                 "properties":
+                    {
+                     "goto":0,
+                     "posx":5,
+                     "posy":10
+                    },
+                 "propertytypes":
+                    {
+                     "goto":"int",
+                     "posx":"int",
+                     "posy":"int"
+                    },
+                 "rotation":0,
+                 "type":"upstair",
+                 "visible":true,
+                 "width":120,
+                 "x":0,
+                 "y":1080
+                }, 
+                {
+                 "gid":24,
+                 "height":120,
+                 "id":92,
+                 "name":"switch0",
+                 "properties":
+                    {
+                     "isexist":1,
+                     "off":"1-0,2-0",
+                     "on":"1-1,2-1",
+                     "status":"off"
+                    },
+                 "propertytypes":
+                    {
+                     "isexist":"int",
+                     "off":"string",
+                     "on":"string",
+                     "status":"string"
+                    },
+                 "rotation":0,
+                 "type":"switch",
+                 "visible":true,
+                 "width":120,
+                 "x":600,
+                 "y":120
+                }, 
+                {
+                 "gid":25,
+                 "height":121,
+                 "id":109,
+                 "name":"key0",
+                 "rotation":0,
+                 "type":"key",
+                 "visible":true,
+                 "width":121,
+                 "x":600,
+                 "y":1440
+                }, 
+                {
+                 "gid":71,
+                 "height":360,
+                 "id":126,
+                 "name":"door0",
+                 "properties":
+                    {
+                     "closeimage":"dec224_png",
+                     "openimage":"dec225_png"
+                    },
+                 "propertytypes":
+                    {
+                     "closeimage":"string",
+                     "openimage":"string"
+                    },
+                 "rotation":0,
+                 "type":"door",
+                 "visible":true,
+                 "width":120,
+                 "x":120,
+                 "y":600
+                }, 
+                {
+                 "gid":93,
+                 "height":840,
+                 "id":127,
+                 "name":"window0",
+                 "properties":
+                    {
+                     "image":"sight02_png"
+                    },
+                 "propertytypes":
+                    {
+                     "image":"string"
+                    },
+                 "rotation":0,
+                 "type":"window",
+                 "visible":true,
+                 "width":840,
+                 "x":120,
+                 "y":1320
+                },
+            
+                {
+                 "gid":94,
+                 "height":1080,
+                 "id":129,
+                 "name":"window1",
+                 "properties":
+                    {
+                     "image":"sight03_png"
+                    },
+                 "propertytypes":
+                    {
+                     "image":"string"
+                    },
+                 "rotation":0,
+                 "type":"window",
+                 "visible":true,
+                 "width":720,
+                 "x":120,
+                 "y":720
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":70,
+ "nextobjectid":134,
+ "orientation":"orthogonal",
+ "renderorder":"right-up",
+ "tiledversion":"1.8.4",
+ "tileheight":120,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"roadgroup.json"
+        }, 
+        {
+         "firstgid":9,
+         "source":"decorate.json"
+        }, 
+        {
+         "firstgid":92,
+         "source":"mapbg.json"
+        }],
+ "tilewidth":120,
+ "type":"map",
+ "version":1.1,
+ "width":7
+}

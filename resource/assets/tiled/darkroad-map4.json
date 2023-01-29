@@ -1,0 +1,525 @@
+{ "compressionlevel":-1,
+ "height":13,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            146, 0, 0, 0, 0, 0, 0],
+         "height":13,
+         "id":1,
+         "name":"ground0",
+         "offsetx":-120,
+         "offsety":0,
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":23,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 2, 0, 0, 0,
+                    0, 0, 0, 2, 0, 0, 0,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 2, 2, 1, 2, 2, 2,
+                    0, 0, 0, 2, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":19,
+                 "name":"layer1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 16, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 16, 0, 0, 0,
+                    90, 0, 0, 18, 0, 0, 91,
+                    18, 0, 0, 18, 0, 0, 18,
+                    18, 0, 0, 18, 0, 0, 18,
+                    18, 0, 0, 18, 0, 0, 18,
+                    16, 19, 19, 17, 19, 19, 16,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0],
+                 "height":13,
+                 "id":25,
+                 "name":"declayer1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":20,
+                 "name":"item1",
+                 "objects":[
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":26,
+                         "name":"exit0",
+                         "rotation":0,
+                         "type":"exit",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":240
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":27,
+                         "name":"start0",
+                         "rotation":0,
+                         "type":"start",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":28,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":720,
+                         "y":480
+                        }, 
+                        {
+                         "gid":7,
+                         "height":141,
+                         "id":29,
+                         "name":"door0",
+                         "properties":
+                            {
+                             "ispass":0
+                            },
+                         "propertytypes":
+                            {
+                             "ispass":"int"
+                            },
+                         "rotation":0,
+                         "type":"door",
+                         "visible":true,
+                         "width":142,
+                         "x":360,
+                         "y":960
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":21,
+                 "name":"decitem1",
+                 "objects":[
+                        {
+                         "gid":20,
+                         "height":240,
+                         "id":32,
+                         "name":"dc0",
+                         "rotation":0,
+                         "type":"closedoor",
+                         "visible":true,
+                         "width":360,
+                         "x":240,
+                         "y":1080
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":26,
+                 "name":"decorate1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l1",
+         "opacity":1,
+         "properties":
+            {
+             "room":0,
+             "state":1
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":22,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 2, 0, 0, 0,
+                    0, 0, 0, 2, 0, 0, 0,
+                    2, 0, 0, 0, 0, 0, 2,
+                    2, 0, 0, 0, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 0, 0, 2, 0, 0, 2,
+                    2, 2, 2, 1, 2, 2, 2,
+                    0, 0, 0, 2, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":2,
+                 "name":"layer0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 16, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 16, 0, 0, 0,
+                    90, 0, 0, 18, 0, 0, 91,
+                    18, 0, 0, 18, 0, 0, 18,
+                    18, 0, 0, 18, 0, 0, 18,
+                    18, 0, 0, 18, 0, 0, 18,
+                    17, 19, 19, 16, 19, 19, 16,
+                    0, 0, 0, 18, 0, 0, 0,
+                    0, 0, 0, 18, 0, 0, 0],
+                 "height":13,
+                 "id":13,
+                 "name":"declayer0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":8,
+                 "name":"item0",
+                 "objects":[
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":6,
+                         "name":"exit0",
+                         "rotation":0,
+                         "type":"exit",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":240
+                        }, 
+                        {
+                         "gid":9,
+                         "height":120,
+                         "id":7,
+                         "name":"start0",
+                         "rotation":0,
+                         "type":"start",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":1440
+                        }, 
+                        {
+                         "gid":25,
+                         "height":121,
+                         "id":15,
+                         "name":"key0",
+                         "rotation":0,
+                         "type":"key",
+                         "visible":true,
+                         "width":121,
+                         "x":720,
+                         "y":480
+                        }, 
+                        {
+                         "gid":7,
+                         "height":120,
+                         "id":19,
+                         "name":"door0",
+                         "rotation":0,
+                         "type":"door",
+                         "visible":true,
+                         "width":120,
+                         "x":360,
+                         "y":960
+                        }, 
+                        {
+                         "gid":24,
+                         "height":120,
+                         "id":23,
+                         "name":"switch0",
+                         "rotation":0,
+                         "type":"switch",
+                         "visible":true,
+                         "width":120,
+                         "x":0,
+                         "y":480
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":16,
+                 "name":"decitem0",
+                 "objects":[
+                        {
+                         "gid":20,
+                         "height":240,
+                         "id":22,
+                         "name":"dc0",
+                         "rotation":0,
+                         "type":"closedoor",
+                         "visible":true,
+                         "width":360,
+                         "x":240,
+                         "y":1080
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0],
+                 "height":13,
+                 "id":5,
+                 "name":"decorate0",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":7,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"l0",
+         "opacity":1,
+         "properties":
+            {
+             "room":0,
+             "state":0
+            },
+         "propertytypes":
+            {
+             "room":"int",
+             "state":"int"
+            },
+         "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":29,
+         "name":"init",
+         "objects":[
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":35,
+                 "name":"exit0",
+                 "rotation":0,
+                 "type":"exit",
+                 "visible":true,
+                 "width":120,
+                 "x":360,
+                 "y":240
+                }, 
+                {
+                 "gid":9,
+                 "height":120,
+                 "id":36,
+                 "name":"start0",
+                 "rotation":0,
+                 "type":"start",
+                 "visible":true,
+                 "width":120,
+                 "x":360,
+                 "y":1440
+                }, 
+                {
+                 "gid":25,
+                 "height":121,
+                 "id":37,
+                 "name":"key0",
+                 "properties":
+                    {
+                     "image":"keyw_png"
+                    },
+                 "propertytypes":
+                    {
+                     "image":"string"
+                    },
+                 "rotation":0,
+                 "type":"key",
+                 "visible":true,
+                 "width":121,
+                 "x":720,
+                 "y":480
+                }, 
+                {
+                 "gid":7,
+                 "height":141,
+                 "id":38,
+                 "name":"door0",
+                 "properties":
+                    {
+                     "closeimage":"dec031_png",
+                     "openimage":"dec032_png"
+                    },
+                 "propertytypes":
+                    {
+                     "closeimage":"string",
+                     "openimage":"string"
+                    },
+                 "rotation":0,
+                 "type":"door",
+                 "visible":true,
+                 "width":142,
+                 "x":360,
+                 "y":960
+                }, 
+                {
+                 "gid":24,
+                 "height":120,
+                 "id":39,
+                 "name":"switch0",
+                 "properties":
+                    {
+                     "isexist":1,
+                     "off":"0-0",
+                     "on":"0-1",
+                     "status":"off"
+                    },
+                 "propertytypes":
+                    {
+                     "isexist":"int",
+                     "off":"string",
+                     "on":"string",
+                     "status":"string"
+                    },
+                 "rotation":0,
+                 "type":"switch",
+                 "visible":true,
+                 "width":120,
+                 "x":0,
+                 "y":480
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":30,
+ "nextobjectid":43,
+ "orientation":"orthogonal",
+ "renderorder":"right-up",
+ "tiledversion":"1.8.4",
+ "tileheight":120,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"roadgroup.json"
+        }, 
+        {
+         "firstgid":9,
+         "source":"decorate.json"
+        }, 
+        {
+         "firstgid":95,
+         "source":"mapbg.json"
+        }],
+ "tilewidth":120,
+ "type":"map",
+ "version":1.1,
+ "width":7
+}
